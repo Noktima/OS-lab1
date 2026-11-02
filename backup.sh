@@ -23,7 +23,7 @@ TIME=$(date +%Y%m%d_%H%M%S)
 
 mkdir -p tmp
 
-ARCHIVE_PATH="tmp/backup_${TIME}.tar.gz"
+ARCHIVE_PATH="/tmp/backup_${TIME}.tar.gz"
 
 echo "Started backup of $1"
 
